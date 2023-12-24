@@ -40,6 +40,7 @@
 	<!-- Plugins -->
 	<?php Theme::plugins('adminHead') ?>
 
+
 </head>
 <body class="h-100">
 

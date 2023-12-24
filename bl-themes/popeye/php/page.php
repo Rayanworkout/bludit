@@ -11,7 +11,7 @@
 						<span class="pr-3"><i class="bi bi-calendar"></i><?php echo $page->date() ?></span>
 
 						<!-- Page reading time -->
-						<span class="pr-3"><i class="bi bi-clock"></i><?php echo $page->readingTime() . ' ' . $L->get('minutes') . ' ' . $L->g('read') ?></span>
+						<span class="pr-3"><i class="bi bi-clock"></i><?php echo $page->readingTime() . ' ' . $L->get('minute(s)') . ' ' . $L->g('read') ?></span>
 
 						<!-- Page author -->
 						<span><i class="bi bi-person"></i><?php echo $page->user('nickname') ?></span>
@@ -23,7 +23,7 @@
 
 				<!-- Page description -->
 				<?php if ($page->description()) : ?>
-					<p class="page-description italic mt-1 color-light"><?php echo $page->description(); ?></p>
+					<p class="page-description italic mt-1"><?php echo $page->description(); ?></p>
 				<?php endif ?>
 
 				<!-- Page content -->

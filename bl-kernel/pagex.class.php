@@ -528,11 +528,11 @@ class Page {
 		$average = $words / 200;
 		$minutes = round($average);
 
-		if ($minutes>1) {
-			return $minutes.' '.$L->get('minutes');
+		if ($minutes>=1) {
+			return $minutes;
 		}
 
-		return '~1 '.$L->get('minute');
+		return '~1 ';
 	}
 
 	// Returns relative time (e.g. "1 minute ago")

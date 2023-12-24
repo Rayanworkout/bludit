@@ -15,8 +15,7 @@ class Theme {
 			'linkedin'=>'Linkedin',
 			'xing'=>'Xing',
 			'mastodon'=>'Mastodon',
-			'vk'=>'VK',
-			'dribbble'=>'Dribbble'
+			'vk'=>'VK'
 		);
 
 		foreach ($socialNetworks as $key=>$label) {

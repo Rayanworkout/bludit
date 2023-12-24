@@ -113,9 +113,9 @@
 		<div class="col-md-5">
 
 			<!-- Notifications -->
-			<ul class="list-group list-group-striped b-0">
+			<ul class="list-group b-0">
 				<li class="list-group-item pt-0">
-					<h4 class="m-0"><?php $L->p('Notifications') ?></h4>
+					<h4 class="pt-1"><?php $L->p('Notifications') ?></h4>
 				</li>
 				<?php
 				$logs = array_slice($syslog->db, 0, NOTIFICATIONS_AMOUNT);

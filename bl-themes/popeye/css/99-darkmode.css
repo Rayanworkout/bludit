@@ -1,7 +1,26 @@
-body {
-    background-color: #1C1C1E !important;
-    color: #b3b3b3 !important;
+:root {
+    --text: #f7f4f4;
+    --background: #262626;
+    --primary: #86bbe4;
+    --secondary: #1e5280;
+    --accent: #3b90d9;
+
 }
+
+
+body {
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+}
+
+h5 {
+    color: var(--text) !important;
+}
+
+.navbar-brand {
+    color: var(--text) !important;
+}
+
 
 a {
     color: #b3b3b3 !important;
@@ -16,11 +35,11 @@ a.badge:hover {
 }
 
 .form-text {
-    color: #989899 !important;
+    color: var(--text) !important;
 }
 
-.bg-light {
-    background-color: #000 !important;
+.bg-dark {
+    background-color: var(--background) !important;
 }
 
 .color-blue {
@@ -47,4 +66,9 @@ a.badge:hover {
     background-color: #1C1C1E !important;
     border-color: #302F33 !important;
     color: #b3b3b3 !important;
+}
+
+.page-content p {
+    background-color: var(--background) !important;
+    padding: 10px !important;
 }

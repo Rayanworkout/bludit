@@ -37,7 +37,7 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'users' ?>">
-								<?php $L->p('Users') ?></a>
+								<?php $L->p('Users') ?></a>	
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'settings' ?>">

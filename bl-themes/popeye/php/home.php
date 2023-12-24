@@ -3,7 +3,7 @@
 
 		<!-- Site logo -->
 		<div class="site-logo">
-			<img class="img-thumbnail rounded-circle mx-auto d-block" height="140px" width="140px" src="<?php echo ($site->logo() ? $site->logo() : HTML_PATH_THEME_IMG . 'popeye.png') ?>" alt="">
+			<img class="img-thumbnail rounded-circle mx-auto d-block" height="170px" width="170px" src="<?php echo ($site->logo() ? $site->logo() : HTML_PATH_THEME_IMG . 'monkey.png') ?>" alt="">
 		</div>
 		<!-- End Site logo -->
 

@@ -56,7 +56,7 @@ EOF;
 		$title = $args['title'];
 return <<<EOF
 <h2 class="mt-0 mb-3">
-	<span class="fa fa-$icon" style="font-size: 0.9em;"></span><span>$title</span>
+	<span class="fa fa-$icon" style="font-size: 0.9em; color: white;"></span><span>$title</span>
 </h2>
 EOF;
 	}

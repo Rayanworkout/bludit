@@ -14,7 +14,7 @@
 						<span class="pr-3"><i class="bi bi-calendar"></i><?php echo $page->date() ?></span>
 
 						<!-- Page reading time -->
-						<span class="pr-3"><i class="bi bi-clock"></i><?php echo $page->readingTime() . ' ' . $L->get('minutes') . ' ' . $L->g('read') ?></span>
+						<span class="pr-3"><i class="bi bi-clock"></i><?php echo $page->readingTime(). ' ' . $L->g('read') ?></span>
 
 						<!-- Page author -->
 						<span><i class="bi bi-person"></i><?php echo $page->user('nickname') ?></span>

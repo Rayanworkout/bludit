@@ -1,0 +1,2 @@
+<?php defined('BLUDIT') or die('Bludit CMS.'); ?>
+{"about":{"title":"About","description":"","username":"admin","tags":[],"type":"static","date":"2023-12-24 14:51:04","dateModified":"2023-12-24 15:14:37","position":1,"coverImage":"","category":"general","md5file":"d1066fb9eb8f2d34a55fb20383e0df66","uuid":"8f523f1db6c00a870da153670194fccf","allowComments":true,"template":"","noindex":false,"nofollow":false,"noarchive":false,"custom":[false]}}
